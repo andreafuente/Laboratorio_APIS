@@ -21,7 +21,7 @@ cargarYMostrar();
 
 const handleFiltrar = (event: Event): void => {
   event.preventDefault();
-  console.log("Submit disparadosss. Input:", input?.value);
+
   if (input !== null && input !== undefined && input instanceof HTMLInputElement) {
   const nombre = input.value;
   cargarYMostrar(nombre);

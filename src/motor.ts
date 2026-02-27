@@ -20,7 +20,6 @@ export const filtradoPersonajes = async (
   if (!respuesta.ok) {
     throw new Error(`Ups! Error al obtener los personajes.`);
   }
-console.log("Submit disparado. Input:", url);
   return respuesta.json();
 
 };
