@@ -39,15 +39,15 @@ import { baseUrl } from "./model";
 
       // Then
       expect(personajes).toEqual([
-        {
-          id: 1,
-          nombre: "Mortadelo",
-          apodo: "Mortadelo",
-          especialidad: "Disfrazarse de cualquier cosa",
-          habilidades: ["Ingenio", "Astucia"],
-          amigo: "Filemón",
-          imagen: "mortadelo.jpg",
-        },
+         {
+              id: "1",
+              nombre: "Mortadelo",
+              apodo: "Mortadelo",
+              especialidad: "Disfraces",
+              habilidades: ["Camuflaje", "Imitaciones", "Huida rápida"],
+              amigo: "Filemón",
+              imagen: "mortadelo.webp",
+            }
       ]);
     });
   });
